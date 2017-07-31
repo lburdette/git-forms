@@ -6,6 +6,15 @@ label {
     display: inline-block;
 }
 
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+form {
+    width: 600px;
+}
+
 input[type="text"],
 input[type="email"] {
     padding: 5px 10px;
@@ -25,7 +34,7 @@ input[type="email"]:focus {
 textarea {
     border: 1px solid pink;
     border-radius: 30px;
-    width: 250px;
+    width: 550px;
     height: 200px;
 }
 
@@ -56,9 +65,11 @@ input[type="submit"]:hover {
 .left {
     width: 300px;
     float: left;
+    clear: left;
 }
 
 .right {
     width: 300px;
-    float: left;
+    float: right;
+    clear: right;
 }
