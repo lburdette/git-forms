@@ -21,7 +21,7 @@ input[type="email"] {
     margin-bottom: 20px;
     width: 250px;
     font-size: 16px;
-    border: 1px solid pink;
+    border: 1px solid skyblue;
     border-radius: 30px;
 }
 
@@ -32,7 +32,7 @@ input[type="email"]:focus {
 }
 
 textarea {
-    border: 1px solid blue;
+    border: 1px solid skyblue;
     border-radius: 30px;
     width: 550px;
     height: 200px;
@@ -44,7 +44,7 @@ textarea:focus {
 }
 
 input[type="submit"] {
-    background-color: hotpink;
+    background-color: skyblue;
     padding: 10px 20px;
     border: none;
     border-radius: 30px;
